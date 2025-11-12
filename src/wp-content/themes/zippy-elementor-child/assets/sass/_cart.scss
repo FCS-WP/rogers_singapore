@@ -1,0 +1,38 @@
+#cart-block {
+  font-family: var(--e-global-typography-primary-font-family);
+  #cart-detail-block {
+    font-family: var(--e-global-typography-primary-font-family);
+    table {
+      .product-name a {
+        color: var(--e-global-color-secondary);
+        font-weight: 600;
+      }
+      .coupon {
+        #coupon_code {
+          width: 130px;
+        }
+        button {
+          padding: 12px 20px;
+          background-color: var(--e-global-color-primary);
+          color: var(--e-global-color-171b55d);
+          &:hover {
+            background-color: var(--e-global-color-2626311);
+          }
+        }
+      }
+      .quantity {
+        .qty {
+          width: 80px;
+        }
+      }
+    }
+    .cart-collaterals {
+      .checkout-button {
+        background-color: var(--e-global-color-primary);
+        &:hover {
+          background-color: var(--e-global-color-2626311);
+        }
+      }
+    }
+  }
+}

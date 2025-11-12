@@ -1,0 +1,17 @@
+#shop-block {
+  .woocommerce-result-count {
+    color: var(--e-global-color-text);
+  }
+  .woocommerce-ordering {
+    select {
+      border-color: var(--e-global-color-text);
+      color: var(--e-global-color-text);
+    }
+  }
+  .e-search-form{
+    .e-search-input,.e-search-submit{
+      padding: 0px 12px;
+      margin: 0px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+#single-service-block {
+  #other-service-list-block {
+    article {
+      .elementor-post__text {
+        h3 {
+          a {
+            &:hover {
+              color: var(--e-global-color-2626311);
+              font-weight: 700;
+            }
+          }
+        }
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+  ul{
+    padding-left: 20px;
+  }
+}
