@@ -1,6 +1,16 @@
 // Search bar
 #banner-header-block,
 #header-block {
+  .jkit-hamburger-menu {
+    &:focus {
+      outline: none;
+      background-color: var(--e-global-color-171b55d);
+    }
+    &:focus-visible {
+      outline: none;
+      background-color: var(--e-global-color-171b55d);
+    }
+  }
   #search-bar,
   #banner-search-bar {
     input {
