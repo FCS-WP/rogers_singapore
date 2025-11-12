@@ -1,3 +1,30 @@
-.main-box-shadow{
+.main-box-shadow {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.button-narrow-block {
+  .elementor-widget-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: var(--e-global-color-primary);
+    wr
+    &:hover {
+      cursor: pointer;
+      background-color: var(--e-global-color-2626311);
+    }
+    @include desktop {
+      display: flex;
+      align-items: center;
+      padding: 8px 20px;
+      background-color: var(--e-global-color-primary);
+      &:hover {
+        cursor: pointer;
+        background-color: var(--e-global-color-2626311);
+      }
+    }
+    h3 {
+      margin: 0px;
+    }
+  }
 }
